@@ -19,7 +19,9 @@ contract GameItem is ERC721URIStorage{
         _tokenIds.increment();
     
         uint256 newItemId = _tokenIds.current();
+        //création nouveau token et affecter au player
         _mint(player, newItemId);
+        //affectation tojenUri au nouveau ID
         _setTokenURI(newItemId, tokenURI);
  
         return newItemId;
