@@ -9,7 +9,7 @@ contract Admin is Ownable{
     event Whitelisted(address _address);
     event Blacklisted(address _address);
 
-    function isWhitelisted(address _address) public view onlyOwner returns(bool){
+    function isWhitelisted(address _address) public view returns(bool){
         return _whitelist[_address];
     } 
 
