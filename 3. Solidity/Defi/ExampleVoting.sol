@@ -1,4 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
+//Fromm doc of solidity v0.8.9
+// url : https://docs.soliditylang.org/en/v0.8.9/solidity-by-example.html?highlight=voting#voting
+
 pragma solidity >=0.7.0 <0.9.0;
 
 contract ballot{
